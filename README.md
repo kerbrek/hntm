@@ -1,3 +1,5 @@
+# HN™
+
 Простой HTTP-прокси-сервер, запускаемый локально, который показывает содержимое
 страниц [Hacker News](https://news.ycombinator.com). Прокси модицифирует текст
 на страницах следующим образом: после каждого слова из шести букв добавляется
@@ -11,29 +13,29 @@
 
 ![screenshot](https://i.imgur.com/ilTnDM7.png)
 
-### Prerequisites
+## Prerequisites
 
-* pipenv
-* make
+- pipenv
+- make
 
-### Commands
+## Commands
 
-* Setup a working environment using _Pipenv_
+- Setup a working environment using _Pipenv_
 
-    `make setup`
+  `make setup`
 
-* Start application server
+- Start application server
 
-    `make start`
+  `make start`
 
-* Run tests
+- Run tests
 
-    `make test`
+  `make test`
 
-* Run linter
+- Run linter
 
-    `make lint`
+  `make lint`
 
-* List all available _Make_ commands
+- List all available _Make_ commands
 
-    `make help`
+  `make help`
